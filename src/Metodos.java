@@ -4,7 +4,7 @@ import TDAs.DiccionarioTDA;
 import TDAs.ListaTDA;
 
 public class Metodos {
-    // # Aclaracion: Todos los metodos funcionan cualquiera de las dos implementaciones del TDAs.DiccionarioTDA
+    // # Aclaracion: Todos los metodos funcionan cualquiera de las dos implementaciones del DiccionarioTDA
 
     public static DiccionarioTDA combinarDiccionarios(DiccionarioTDA d1, DiccionarioTDA d2) {
         DiccionarioTDA nuevoDiccionario = new DiccionarioDinamico();
