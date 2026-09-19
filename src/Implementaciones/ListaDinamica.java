@@ -1,4 +1,8 @@
+package Implementaciones;
+
+import TDAs.ListaTDA;
 import java.util.Objects;
+
 public class ListaDinamica extends ListaTDA {
     // Clase interna para el nodo.
     private static class NodoLista {

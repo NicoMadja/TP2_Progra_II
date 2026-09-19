@@ -1,5 +1,10 @@
+package Implementaciones;
+
+import TDAs.DiccionarioTDA;
+import TDAs.ListaTDA;
+
 public class DiccionarioDinamico extends DiccionarioTDA {
-    // Clase interna para el nodo
+    // Clase interna para el nodo.
     private static class NodoDiccionario {
         Object clave;
         Object valor;
@@ -18,10 +23,10 @@ public class DiccionarioDinamico extends DiccionarioTDA {
         NodoDiccionario aux = buscarNodo(clave);
 
         if (aux != null) {
-            // Si la clave ya existe, se reemplaza su valor.
+            // 1. Si la clave ya existe, se reemplaza su valor.
             aux.valor = valor;
         } else {
-            // Si no existe, se inserta un nuevo nodo al inicio de la cadena.
+            // 2. Si no existe, se inserta un nuevo nodo al inicio de la cadena.
             NodoDiccionario nuevo = new NodoDiccionario();
             nuevo.clave = clave;
             nuevo.valor = valor;

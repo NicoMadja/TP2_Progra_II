@@ -1,3 +1,5 @@
+package TDAs;
+
 public abstract class ListaTDA {
     // Dominio:
     // Lista = Colección finita de elementos sin posiciones ni orden garantizado, donde puede haber repetidos.

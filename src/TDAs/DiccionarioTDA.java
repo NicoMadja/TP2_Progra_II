@@ -1,3 +1,5 @@
+package TDAs;
+
 public abstract class DiccionarioTDA {
     // Dominio:
     // Diccionario = Conjunto de pares clave-valor donde cada clave es única y está asociada, a lo sumo, a un valor.
